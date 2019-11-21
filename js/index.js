@@ -1,4 +1,6 @@
 'use strict';
+
+
 /*
 
 
@@ -84,6 +86,7 @@ console.log(join);
 
 
 
+/*
 const  checkPalindrome =  str =>{
 
     str = str.replace( /^a-яa-z/ig ,"");
@@ -102,4 +105,75 @@ do{
     }
 
     alert(checkPalindrome(userStr));
-}while (true)
+}while (true)*/
+
+
+/*
+
+class Animal {
+    getVoice (){
+        console.log(this.voice);
+    }
+}
+
+
+class Cat extends Animal{
+    constructor(name , jumpHeight){
+        super();
+        this.name = name;
+        this.voice = "Мяу - мяу";
+        this.jumpHeight = jumpHeight;
+    }
+
+
+    run(times){
+
+        for(let i )
+
+        console.log()
+    }
+}
+
+const  cat = new Cat("Dead");*/
+
+
+class User{
+
+    constructor( login , password , email){
+        this.login = login;
+        this.password = password;
+        this.email = email;
+
+    }
+
+    cheLogin(value){
+        return this.login === value;
+    }
+
+
+    checkPassword (value){
+        return this.password === password;
+    }
+}
+
+class Buyer extends User{
+
+
+
+    constructor(login, password, email) {
+        super.constructor(login, password, email);
+    }
+
+}
+
+class Seller extends User{
+
+
+    constructor(login, password, email) {
+        super.constructor(login, password, email);
+    }
+
+}
+
+const buyer = new Buyer("fdsfdsf","4654564","fsdfdsfds@gmail.com");
+const  seller = n
